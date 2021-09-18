@@ -16,6 +16,7 @@ A Colorado Board of Election employee Tom has assigned the following tasks to co
 
 ## Election-Audit Results
 *How many votes were cast in this congressional election?
+
 In this congressional election Total 369,711 votes were casted
 
 
@@ -43,6 +44,10 @@ Raymon Anthony Doane: 3.1% (11,606))
 
 
 *Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
-
+```
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+```
 
 ## Election-Audit Summary
