@@ -21,7 +21,7 @@ In this congressional election Total 369,711 votes were casted
 
 *Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
-###County Votes:
+### County Votes:
 ```
 Jefferson: 10.5% (38,855) 
 Denver: 82.8% (306,055) 
