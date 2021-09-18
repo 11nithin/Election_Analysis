@@ -1,13 +1,12 @@
 # Election_Analysis
 ## Project Overview
 A Colorado Board of Election employee Tom has assigned the following tasks to complete the election audit of recent local congressional election. They requested to extract the data from the election results provided.
-
- -Total number of votes cast
- -Total number f voters for each candidates
- -Percentage of votes for each candidate
- -The voter turnout for each county 
- -The percentage of votes from each county out of the total count
- -The county with the highest turnout
+  -Total number of votes cast
+  -Total number f voters for each candidates
+  -Percentage of votes for each candidate
+  -The voter turnout for each county 
+  -The percentage of votes from each county out of the total count
+  -The county with the highest turnout
 
  ## Election-Audit Results
 *How many votes were cast in this congressional election?
