@@ -46,7 +46,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
      Denver: 82.8% (306,055)  
  ```   
 - **The winner of the election**
-- Candidate Diana DeGette recieved who recieved 73.8% of the vote and "272,892" number of votes.
+- Candidate Diana DeGette who recieved 73.8% of the vote and "272,892" number of votes.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Electionresult](https://github.com/11nithin/Election_Analysis/blob/main/Resources/Election_result.PNG)
