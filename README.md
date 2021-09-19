@@ -22,11 +22,11 @@ A Colorado Board of Election employee has given me the following tasks to comple
 - There were 369,711 votes were casted in the congressional election.
 
 - The candidate were:	
-```
-Charles Casper Stockham
-Diana DeGette
-Raymon Anthony Doane
-```
+    ```
+    Charles Casper Stockham
+    Diana DeGette
+    Raymon Anthony Doane
+    ```
 - The candidate results were:
 - Candidate **Charles Casper Stockham** recieved "23.0%" of the vote and "85,213" number of votes. 
 
@@ -37,11 +37,11 @@ Raymon Anthony Doane
 
 - The Counties and number of votes and percentage:
 
-```
-Jefferson: 10.5% (38,855) 
-Denver: 82.8% (306,055) 
-Arapahoe: 6.7% (24,801) 
-```
+    ```
+    Jefferson: 10.5% (38,855) 
+    Denver: 82.8% (306,055) 
+    Arapahoe: 6.7% (24,801) 
+    ```
 
 - The county with the largest number of votes
 ```
