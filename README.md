@@ -4,14 +4,14 @@
 
 A Colorado Board of Election employee has given me the following tasks to complete the election audit of recent local congressional election.
 
-  1. Calculate the total number of votes cast
-  2. Get a complete list of candidates who received votes
-  3. Calculate the total number of votes each candidate received
-  3. Calculate the percentage of votes for each candidate 
-  4. The voter turnout for each county 
-  5. The percentage of votes from each county 
-  6. The county with the highest number of votes
-  7. Determine the winner of the election based on the popular vote
+  1. Calculate the total number of votes cast.
+  2. Get a complete list of candidates who received votes.
+  3. Calculate the total number of votes each candidate received.
+  3. Calculate the percentage of votes for each candidate.
+  4. The voter turnout for each county. 
+  5. The percentage of votes from each county. 
+  6. The county with the highest number of votes.
+  7. Determine the winner of the election based on the popular vote.
 
 ## Resources
 - Data Source: election_results.csv
@@ -28,9 +28,9 @@ A Colorado Board of Election employee has given me the following tasks to comple
     - Diana DeGette
     - Raymon Anthony Doane
 - **The candidate results were:**-
-    - Candidate **Charles Casper Stockham** received "23.0%" of the vote and "85,213" number of votes
-    - Candidate **Diana DeGette** received "73.8%" of the vote and "272,892" number of votes
-    - Candidate **Raymon Anthony Doane** received "3.1%" of the vote and "11,606" number of votes
+    - Candidate **Charles Casper Stockham** received "23.0%" of the vote and "85,213" number of votes.
+    - Candidate **Diana DeGette** received "73.8%" of the vote and "272,892" number of votes.
+    - Candidate **Raymon Anthony Doane** received "3.1%" of the vote and "11,606" number of votes.
 
 - **The Counties and number of votes and percentage**
      - Jefferson: 10.5% (38,855) 
@@ -63,7 +63,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
 		county_name = row[1]
 ```
 
-- The third advantage of this script is since this saves all the candidates name and county in list. There is no limit if there is more than 3 county or 3 candidates
+- The third advantage of this script is since this saves all the candidates name and county in list. There is no limit if there is more than 3 county or 3 candidates.
 		
 
 ```
