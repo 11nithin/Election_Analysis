@@ -43,6 +43,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
     Arapahoe: 6.7% (24,801) 
     ```
 **The county with the largest number of votes**
+    
     ```
     Denver: 82.8% (306,055)  
     ```
