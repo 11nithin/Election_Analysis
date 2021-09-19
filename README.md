@@ -13,7 +13,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
   6. The county with the highest number of votes
   7. Determine the winner of the election based on the popular vote
 
-##Resources
+## Resources
 - Data Source: election_results.csv
 - Software: Python 3.6.1, Visual Studio Code, 1.38.1
 
