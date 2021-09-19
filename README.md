@@ -60,7 +60,6 @@ A Colorado Board of Election employee has given me the following tasks to comple
   The second example is that the script is designed to iterate through specific rows see the code below. Just by changing the row index depending on the data we can get detailed report. 
 ```
 for row in reader:
-
         # Add to the total vote count
         total_votes = total_votes + 1
 
@@ -70,12 +69,13 @@ for row in reader:
         # 3: Extract the county name from each row.
         county_name = row[1]
 ```
-
+-----------------------------------------------------------------------------------------------
 
 		The third advantage of this script is since this saves all the candiates name and county in list. There is no limit if there is more than 3 county or 3 candidates
+		
+-----------------------------------------------------------------------------------------------		
 ```
 if candidate_name not in candidate_options:
-
             # Add the candidate name to the candidate list.
             candidate_options.append(candidate_name)
 
@@ -92,11 +92,9 @@ if candidate_name not in candidate_options:
             # 4b: Add the existing county to the list of counties.
             county_list.append(county_name)
 
-
             # 4c: Begin tracking the county's vote count.
             county_votes[county_name] = 0
 
         # 5: Add a vote to that county's vote count.
         county_votes[county_name] += 1
-
 ```
