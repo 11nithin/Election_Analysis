@@ -29,6 +29,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
     Diana DeGette
     Raymon Anthony Doane
     ```
+    
 **The candidate results were**
 
 - Candidate **Charles Casper Stockham** recieved "23.0%" of the vote and "85,213" number of votes
@@ -42,11 +43,13 @@ A Colorado Board of Election employee has given me the following tasks to comple
     Denver: 82.8% (306,055) 
     Arapahoe: 6.7% (24,801) 
     ```
+    
 **The county with the largest number of votes**
     
     ```
     Denver: 82.8% (306,055)  
     ```
+    
 **The winner of the election**
 - Candidate Diana DeGette recieved who recieved 73.8% of the vote and "272,892" number of votes.
 
