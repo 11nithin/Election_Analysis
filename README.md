@@ -28,11 +28,11 @@ Diana DeGette
 Raymon Anthony Doane
 ```
 *The candidate results were:
--Candidate **Charles Casper Stockham** recieved "23.0%" of the vote and "85,213" number of votes. 
+- Candidate **Charles Casper Stockham** recieved "23.0%" of the vote and "85,213" number of votes. 
 
--Candidate **Diana DeGette recieved** "73.8%" of the vote and "272,892" number of votes. 
+- Candidate **Diana DeGette recieved** "73.8%" of the vote and "272,892" number of votes. 
 
--Candidate **Raymon Anthony Doane** recieved "3.1%" of the vote and "11,606" number of votes.
+- Candidate **Raymon Anthony Doane** recieved "3.1%" of the vote and "11,606" number of votes.
 
 
 *The Counties and number of votes and percentage:
@@ -50,7 +50,7 @@ Denver: 82.8% (306,055)
 
 *The winner of the election was:
 
--Candidate Diana DeGette recieved who recieved 73.8% of the vote and "272,892" number of votes.
+- Candidate Diana DeGette recieved who recieved 73.8% of the vote and "272,892" number of votes.
 
 
 ## Election-Audit Summary
