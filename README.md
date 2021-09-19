@@ -7,7 +7,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
   1. Calculate the total number of votes cast
   2. Get a complete list of candidates who recieved votes
   3. Calculate the total number of votes each candidate recieved 
-  3. Calculate the percentage of votes for each candidate recieved
+  3. Calculate the percentage of votes for each candidate 
   4. The voter turnout for each county 
   5. The percentage of votes from each county 
   6. The county with the highest number of votes
@@ -46,7 +46,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
      Denver: 82.8% (306,055)  
  ```   
 - **The winner of the election**
-- Candidate Diana DeGette who recieved 73.8% of the vote and "272,892" number of votes.
+    Candidate Diana DeGette  won the election with 73.8% of the vote and "272,892" number of votes.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Electionresult](https://github.com/11nithin/Election_Analysis/blob/main/Resources/Election_result.PNG)
@@ -55,9 +55,9 @@ A Colorado Board of Election employee has given me the following tasks to comple
 ## Election-Audit Summary
 
  The greatest advantage of the this code is with slight modification this can be used for any election. This script can be used in any election with dataset that consists of a number for the ballot ID, name for the county and candidate  to determine: total number of votes cast, a complete list of candidates who received votes, total number of votes each candidate received, percentage of votes each candidate won, the winner of the election based on popular vote, the voter turnout for each county, the percentage of votes from each county out of the total count, and the county with the highest turnout.
-  -One of the exapmple this script is very useful is the if there is federal election the county can be replaced by state.
-   
-  -The second example is that the script is designed to iterate through specific rows see the code below. Just by changing the row index depending on the data we can get detailed report. 
+ 
+  - One of the example this script is very useful is that if there is federal election the county can be replaced by state. 
+  - The second example is that the script is designed to iterate through specific rows see the code below. Just by changing the row index depending on the data we can get detailed report. 
 ```
 for row in reader:
         # Add to the total vote count
@@ -70,7 +70,7 @@ for row in reader:
         county_name = row[1]
 ```
 -----------------------------------------------------------------------------------------------
--The third advantage of this script is since this saves all the candiates name and county in list. There is no limit if there is more than 3 county or 3 candidates
+- The third advantage of this script is since this saves all the candiates name and county in list. There is no limit if there is more than 3 county or 3 candidates
 		
 -----------------------------------------------------------------------------------------------		
 ```
