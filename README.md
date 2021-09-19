@@ -25,9 +25,9 @@ A Colorado Board of Election employee has given me the following tasks to comple
 
 - **The candidate were** 
   ```
-      1. Charles Casper Stockham
-      2. Diana DeGette
-      3. Raymon Anthony Doane
+    1. Charles Casper Stockham
+    2. Diana DeGette
+    3. Raymon Anthony Doane
    ``` 
 - **The candidate results were**
 ```
@@ -37,9 +37,9 @@ A Colorado Board of Election employee has given me the following tasks to comple
 ```
 - **The Counties and number of votes and percentage**
   ```
-      1. Jefferson: 10.5% (38,855) 
-      2. Denver: 82.8% (306,055) 
-      3. Arapahoe: 6.7% (24,801) 
+     1. Jefferson: 10.5% (38,855) 
+     2. Denver: 82.8% (306,055) 
+     3. Arapahoe: 6.7% (24,801) 
   ``` 
 - **The county with the largest number of votes**    
   ```
