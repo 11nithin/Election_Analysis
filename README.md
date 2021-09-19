@@ -1,7 +1,7 @@
 # Election Analysis
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project Overview
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 A Colorado Board of Election employee has given me the following tasks to complete the election audit of recent local congressional election.
 
   1. Calculate the total number of votes cast
