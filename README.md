@@ -5,8 +5,8 @@
 A Colorado Board of Election employee has given me the following tasks to complete the election audit of recent local congressional election.
 
   1. Calculate the total number of votes cast
-  2. Get a complete list of candidates who recieved votes
-  3. Calculate the total number of votes each candidate recieved 
+  2. Get a complete list of candidates who received votes
+  3. Calculate the total number of votes each candidate received
   3. Calculate the percentage of votes for each candidate 
   4. The voter turnout for each county 
   5. The percentage of votes from each county 
@@ -23,14 +23,14 @@ A Colorado Board of Election employee has given me the following tasks to comple
 
 - There were 369,711 votes were casted in the congressional election.
 
-- **The candidate were :** -
+- **The candidate were:** -
     - Charles Casper Stockham
     - Diana DeGette
     - Raymon Anthony Doane
 - **The candidate results were:**-
-    - Candidate **Charles Casper Stockham** recieved "23.0%" of the vote and "85,213" number of votes
-    - Candidate **Diana DeGette recieved** "73.8%" of the vote and "272,892" number of votes
-    - Candidate **Raymon Anthony Doane** recieved "3.1%" of the vote and "11,606" number of votes
+    - Candidate **Charles Casper Stockham** received "23.0%" of the vote and "85,213" number of votes
+    - Candidate **Diana DeGette** received "73.8%" of the vote and "272,892" number of votes
+    - Candidate **Raymon Anthony Doane** received "3.1%" of the vote and "11,606" number of votes
 
 - **The Counties and number of votes and percentage**
      - Jefferson: 10.5% (38,855) 
@@ -47,25 +47,25 @@ A Colorado Board of Election employee has given me the following tasks to comple
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Election-Audit Summary
 
- The greatest advantage of the this code is with slight modification this can be used for any election. This script can be used in any election with dataset that consists of a number for the ballot ID, name for the county and candidate  to determine: total number of votes cast, a complete list of candidates who received votes, total number of votes each candidate received, percentage of votes each candidate won, the winner of the election based on popular vote, the voter turnout for each county, the percentage of votes from each county out of the total count, and the county with the highest turnout.
+ The greatest advantage of this code is with slight modification this can be used for any election. This script can be used in any election with dataset that consists of a number for the ballot ID, name for the county and candidate  to determine: total number of votes cast, a complete list of candidates who received votes, total number of votes each candidate received, percentage of votes each candidate won, the winner of the election based on popular vote, the voter turnout for each county, the percentage of votes from each county out of the total count, and the county with the highest turnout.
  
-  - One of the example this script is very useful is that if there is federal election the county can be replaced by state. 
+  - One of the examples this script is very useful is that if there is federal election the county can be replaced by state. 
   - The second example is that the script is designed to iterate through specific rows see the code below. Just by changing the row index depending on the data we can get detailed report. 
 ```
 	for row in reader:
 		# Add to the total vote count
 		total_votes = total_votes + 1
 
-		# Get the candidate name from each row.
+		# Get the candidate's name from each row.
 		candidate_name = row[2]
 
 		# 3: Extract the county name from each row.
 		county_name = row[1]
 ```
-------------------------
-- The third advantage of this script is since this saves all the candiates name and county in list. There is no limit if there is more than 3 county or 3 candidates
+
+- The third advantage of this script is since this saves all the candidates name and county in list. There is no limit if there is more than 3 county or 3 candidates
 		
-------------------------
+
 ```
 	if candidate_name not in candidate_options:
 		    # Add the candidate name to the candidate list.
