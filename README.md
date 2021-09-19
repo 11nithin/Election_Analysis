@@ -44,9 +44,9 @@ A Colorado Board of Election employee has given me the following tasks to comple
     ```
 
 - The county with the largest number of votes
-```
-Denver: 82.8% (306,055)  
-```
+    ```
+    Denver: 82.8% (306,055)  
+    ```
 
 - The winner of the election was:
 
