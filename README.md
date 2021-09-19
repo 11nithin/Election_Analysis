@@ -52,7 +52,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Election-Audit Summary
 
-   The greatest advantage of the this code is with slight modification this can be used for any election. This script can be used in any election with dataset that consists of a number for the ballot ID, name for the county and candidate  to determine: total number of votes cast, a complete list of candidates who received votes, total number of votes each candidate received, percentage of votes each candidate won, the winner of the election based on popular vote, the voter turnout for each county, the percentage of votes from each county out of the total count, and the county with the highest turnout.
+ The greatest advantage of the this code is with slight modification this can be used for any election. This script can be used in any election with dataset that consists of a number for the ballot ID, name for the county and candidate  to determine: total number of votes cast, a complete list of candidates who received votes, total number of votes each candidate received, percentage of votes each candidate won, the winner of the election based on popular vote, the voter turnout for each county, the percentage of votes from each county out of the total count, and the county with the highest turnout.
    One of the exapmple this script is very useful is if there is federal election the county can be replaced by state.
    
    The second example is
