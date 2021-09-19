@@ -23,6 +23,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
 
 - There were 369,711 votes were casted in the congressional election.
 **The candidate were**
+
     ```
     Charles Casper Stockham
     Diana DeGette
@@ -35,6 +36,7 @@ A Colorado Board of Election employee has given me the following tasks to comple
 - Candidate **Raymon Anthony Doane** recieved "3.1%" of the vote and "11,606" number of votes
 
 **The Counties and number of votes and percentage**
+
     ```
     Jefferson: 10.5% (38,855) 
     Denver: 82.8% (306,055) 
