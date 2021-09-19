@@ -2,17 +2,16 @@
 
 ## Project Overview
 
-A Colorado Board of Election employee Tom has given me the following tasks to complete the election audit of recent local congressional election.
+A Colorado Board of Election employee has given me the following tasks to complete the election audit of recent local congressional election.
 
-1. Calculate the total number of votes cast
-  
-2. Get a complete list of candidates who recieved votes
-3. Calculate the total number of votes each candidate recieved 
-3. Calculate the percentage of votes for each candidate recieved
-4. The voter turnout for each county 
-5. The percentage of votes from each county 
-6. The county with the highest number of votes
-7. Determine the winner of the election based on the popular vote
+  1. Calculate the total number of votes cast
+  2. Get a complete list of candidates who recieved votes
+  3. Calculate the total number of votes each candidate recieved 
+  3. Calculate the percentage of votes for each candidate recieved
+  4. The voter turnout for each county 
+  5. The percentage of votes from each county 
+  6. The county with the highest number of votes
+  7. Determine the winner of the election based on the popular vote
 
 ##Resources
 - Data Source: election_results.csv
@@ -30,7 +29,9 @@ Raymon Anthony Doane
 ```
 *The candidate results were:
 -Candidate **Charles Casper Stockham** recieved "23.0%" of the vote and "85,213" number of votes. 
+
 -Candidate **Diana DeGette recieved** "73.8%" of the vote and "272,892" number of votes. 
+
 -Candidate **Raymon Anthony Doane** recieved "3.1%" of the vote and "11,606" number of votes.
 
 
@@ -48,6 +49,7 @@ Denver: 82.8% (306,055)
 ```
 
 *The winner of the election was:
+
 -Candidate Diana DeGette recieved who recieved 73.8% of the vote and "272,892" number of votes.
 
 
