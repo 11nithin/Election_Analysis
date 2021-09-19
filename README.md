@@ -1,7 +1,7 @@
 # Election_Analysis
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Project Overview
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 A Colorado Board of Election employee has given me the following tasks to complete the election audit of recent local congressional election.
 
   1. Calculate the total number of votes cast
@@ -62,10 +62,10 @@ A Colorado Board of Election employee has given me the following tasks to comple
 		# 3: Extract the county name from each row.
 		county_name = row[1]
 ```
------------------------------------------------------------------------------------------------
+------------------------
 - The third advantage of this script is since this saves all the candiates name and county in list. There is no limit if there is more than 3 county or 3 candidates
 		
------------------------------------------------------------------------------------------------		
+------------------------
 ```
 	if candidate_name not in candidate_options:
 		    # Add the candidate name to the candidate list.
