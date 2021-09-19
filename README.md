@@ -23,30 +23,23 @@ A Colorado Board of Election employee has given me the following tasks to comple
 
 - There were 369,711 votes were casted in the congressional election.
 
-- **The candidate were** -
-```
-    1. Charles Casper Stockham
-    2. Diana DeGette
-    3. Raymon Anthony Doane
- ``` 
-- **The candidate results were**
-```
-    1. Candidate **Charles Casper Stockham** recieved "23.0%" of the vote and "85,213" number of votes
-    2. Candidate **Diana DeGette recieved** "73.8%" of the vote and "272,892" number of votes
-    3. Candidate **Raymon Anthony Doane** recieved "3.1%" of the vote and "11,606" number of votes
-```
+- **The candidate were :** -
+    - Charles Casper Stockham
+    - Diana DeGette
+    - Raymon Anthony Doane
+- **The candidate results were:**-
+    - Candidate **Charles Casper Stockham** recieved "23.0%" of the vote and "85,213" number of votes
+    - Candidate **Diana DeGette recieved** "73.8%" of the vote and "272,892" number of votes
+    - Candidate **Raymon Anthony Doane** recieved "3.1%" of the vote and "11,606" number of votes
+
 - **The Counties and number of votes and percentage**
- ```
-     1. Jefferson: 10.5% (38,855) 
-     2. Denver: 82.8% (306,055) 
-     3. Arapahoe: 6.7% (24,801) 
- ``` 
+     - Jefferson: 10.5% (38,855) 
+     - Denver: 82.8% (306,055) 
+     - Arapahoe: 6.7% (24,801) 
 - **The county with the largest number of votes**    
- ```
-     Denver: 82.8% (306,055)  
- ```   
+     - Denver: 82.8% (306,055)  
 - **The winner of the election**
-    Candidate Diana DeGette  won the election with 73.8% of the vote and "272,892" number of votes.
+    - Candidate Diana DeGette  won the election with 73.8% of the vote and "272,892" number of votes.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ![Electionresult](https://github.com/11nithin/Election_Analysis/blob/main/Resources/Election_result.PNG)
@@ -59,41 +52,41 @@ A Colorado Board of Election employee has given me the following tasks to comple
   - One of the example this script is very useful is that if there is federal election the county can be replaced by state. 
   - The second example is that the script is designed to iterate through specific rows see the code below. Just by changing the row index depending on the data we can get detailed report. 
 ```
-for row in reader:
-        # Add to the total vote count
-        total_votes = total_votes + 1
+	for row in reader:
+		# Add to the total vote count
+		total_votes = total_votes + 1
 
-        # Get the candidate name from each row.
-        candidate_name = row[2]
+		# Get the candidate name from each row.
+		candidate_name = row[2]
 
-        # 3: Extract the county name from each row.
-        county_name = row[1]
+		# 3: Extract the county name from each row.
+		county_name = row[1]
 ```
 -----------------------------------------------------------------------------------------------
 - The third advantage of this script is since this saves all the candiates name and county in list. There is no limit if there is more than 3 county or 3 candidates
 		
 -----------------------------------------------------------------------------------------------		
 ```
-if candidate_name not in candidate_options:
-            # Add the candidate name to the candidate list.
-            candidate_options.append(candidate_name)
+	if candidate_name not in candidate_options:
+		    # Add the candidate name to the candidate list.
+		    candidate_options.append(candidate_name)
 
-            # And begin tracking that candidate's voter count.
-            candidate_votes[candidate_name] = 0
+		    # And begin tracking that candidate's voter count.
+		    candidate_votes[candidate_name] = 0
 
-        # Add a vote to that candidate's count
-        candidate_votes[candidate_name] += 1
+		# Add a vote to that candidate's count
+		candidate_votes[candidate_name] += 1
 
-        # 4a: Write an if statement that checks that the
-        # county does not match any existing county in the county list.
-        if county_name not in county_list:
+		# 4a: Write an if statement that checks that the
+		# county does not match any existing county in the county list.
+		if county_name not in county_list:
 
-            # 4b: Add the existing county to the list of counties.
-            county_list.append(county_name)
+		    # 4b: Add the existing county to the list of counties.
+		    county_list.append(county_name)
 
-            # 4c: Begin tracking the county's vote count.
-            county_votes[county_name] = 0
+		    # 4c: Begin tracking the county's vote count.
+		    county_votes[county_name] = 0
 
-        # 5: Add a vote to that county's vote count.
-        county_votes[county_name] += 1
+		# 5: Add a vote to that county's vote count.
+		county_votes[county_name] += 1
 ```
